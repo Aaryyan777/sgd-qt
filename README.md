@@ -75,8 +75,9 @@ To validate the performance of SGD-QT, we conducted a series of benchmark experi
 ### **4. Results and Discussion**
 
 The performance of the three optimizers is summarized in the plot of validation accuracy versus epoch, shown in Figure 1.
-
-<img src="optimizer_comparison.png" width="400"/>
+<p align="center">
+    <img src="optimizer_comparison.png" width="700"/>
+</p>
 *Figure 1: Comparison of validation accuracy on CIFAR-10 for SGD, Adam, and our proposed SGD-QT over 20 epochs. Red dashed lines indicate the epochs where SGD-QT performed a tunneling event.*
 
 The results clearly demonstrate the unique behavior and effectiveness of the SGD-QT algorithm.
